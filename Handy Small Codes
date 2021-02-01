@@ -1,0 +1,6 @@
+// How to check if a char is a letter :
+
+function isCharacterALetter(char) {
+  return (/[a-zA-Z]/).test(char)
+}
+
