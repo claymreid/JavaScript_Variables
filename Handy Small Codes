@@ -1,6 +1,13 @@
-// How to check if a char is a letter :
+// Check if a char is a letter :
 
 function isCharacterALetter(char) {
   return (/[a-zA-Z]/).test(char)
 }
 
+// Check if a char is a vowel :
+
+function isCharacterAVowel(char) {
+  const VOWELS = ['a', 'e', 'i', 'o', 'u'];
+  return VOWELS.includes(char.toLowerCase());
+}
+ 
